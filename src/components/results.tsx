@@ -91,7 +91,7 @@ const Results = () => {
       <div className="bg-zinc-900 md:p-8 [&>*:nth-child(odd)]:bg-zinc-800">
         <div className="flex !bg-brand font-heading font-bold uppercase text-black [&>*]:basis-2/12 [&>*]:px-4 [&>*]:py-2">
           <div
-            className="flex basis-2/12 cursor-pointer justify-center gap-2 transition hover:!bg-brand-light"
+            className="flex basis-2/12 cursor-pointer items-center justify-center gap-2 transition hover:!bg-brand-light"
             onClick={handleSortRank}
           >
             <div>Rank</div>
