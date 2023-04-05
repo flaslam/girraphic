@@ -131,12 +131,14 @@ const Results = () => {
                 <div className="hidden md:block">{athlete.countryname}</div>
 
                 <div className="flex w-full items-center justify-center">
-                  <Flag
-                    code={athlete.flag}
-                    fallback={
-                      <div className="text-xs uppercase">{athlete.flag}</div>
-                    }
-                  />
+                  <div className="w-6">
+                    <Flag
+                      code={athlete.flag}
+                      fallback={
+                        <div className="text-xs uppercase">{athlete.flag}</div>
+                      }
+                    />
+                  </div>
                 </div>
               </div>
             </div>
