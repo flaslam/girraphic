@@ -15,6 +15,9 @@ jobs:
       matrix:
         node-version: [18.x]
 
+    permissions:
+      contents: write
+
     steps:
       - name: Get files
         uses: actions/checkout@v2
