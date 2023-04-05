@@ -125,7 +125,7 @@ const Results = () => {
               </div>
               <div className="hidden basis-2/12 text-center md:block">
                 <div>{athlete.finishtime}</div>
-                <div className="text-xs uppercase">{athlete.raceprogress}</div>
+                {/* <div className="text-xs uppercase">{athlete.raceprogress}</div> */}
               </div>
               <div className="flex basis-2/12 flex-col justify-center text-center">
                 <div className="hidden md:block">{athlete.countryname}</div>
